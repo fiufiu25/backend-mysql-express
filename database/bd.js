@@ -1,11 +1,11 @@
 const mysql=require("mysql2");
 const  conexion=mysql.createConnection({
-    host: process.env.Host,
-    port: process.env.port,
-    user:process.env.USER,
-    password:"",
+    host:"bjwofdm3taavhi9boe4k-mysql.services.clever-cloud.com",
+    port: 3306,
+    user:"ugkzo5sgabprjerl",
+    password:"LwXoTbbfYltE00BsmTUD",
 
-    database:process.env.DATABASE
+    database:"bjwofdm3taavhi9boe4k"
  })
  conexion.connect((error) => {
     if (error) {
